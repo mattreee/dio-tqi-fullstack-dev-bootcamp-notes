@@ -1,0 +1,10 @@
+Ferramentas.
+
+MySQL - banco de dados gratuito.
+pqpMyAdmin - sistema gerenciador de banco de dados.
+
+Configurando ambiente.
+   -Instalar o MySQL.
+   -Utilizar o XAMPP.
+      >XAMPP é uma pilha de aplicações que envolve o Apache, MySQL, PhpMyAdmin e um servidor FTP.
+   

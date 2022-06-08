@@ -1,0 +1,24 @@
+Selecionando Dados
+
+-SELECT
+   Ex.:
+   >SELECT * FROM pessoas
+
+   > pode também definir que informações podem ser pegas da tabela pessoas.
+
+
+
+Atualizando os Dados
+
+-UPDATE
+   Ex.:
+   >UPDATE pessoas SET nome = "Matheus Fantinato"
+
+   >Altera as informações na tabela; (pode alterar todos os dados de uma coluna)
+
+
+-WHERE
+   Ex.:
+   >UPDATE pessoas SET nome="Matheus Fantinato" WHERE id=1;
+
+   >Cláusula condicional do SQL

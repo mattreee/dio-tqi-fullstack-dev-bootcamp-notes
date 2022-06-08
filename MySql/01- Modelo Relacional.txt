@@ -1,0 +1,15 @@
+Modelo Relacional.
+   Surgiu na década de 60, proposto por Edgar Codd.
+   As tabeas são compostas por:
+      - entidades;
+      - atributos;
+      - chaves.
+   As chaves permitem o relacionamento entre os dados.
+
+   "Quando se fala em modelo relacional, a entidade é de fato a tabela. Por exemplo, se tivermos a tabela PESSOAS, teríamos também a entidade PESSOA."
+
+Porque usar tabelas?
+   -Dados organizados de forma estruturada.
+   -Dados atômicos.
+      >Atomicidade parte do princípio que um dado é único e não pode exisitr em nenhum outro lugar.
+   -Consulta e Manipulação de Dados Simplificadas.

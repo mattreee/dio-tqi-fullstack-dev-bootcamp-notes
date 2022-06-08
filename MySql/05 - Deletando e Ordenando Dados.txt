@@ -1,0 +1,21 @@
+Deletando Dados
+
+-DELETE FROM
+   >Deleta informações selecionadas
+   Ex.:
+   >DELETE FROM pessoas WHERE id=1;
+
+
+Ordenando Dados
+
+-ORDER BY
+   >Ordena a forma como as informações são exibidas;
+   >Ordena de forma crescente ou decrescente;
+   >Por padrão sempre ordenará de forma crescente
+   
+   Ex.:
+   >SELECT * FROM pessoas ORDER BY nome
+
+   Ex.:
+   (para ordenar de forma decrescente)
+   >SELECT * FROM pessoas ORDER BY nome DESC

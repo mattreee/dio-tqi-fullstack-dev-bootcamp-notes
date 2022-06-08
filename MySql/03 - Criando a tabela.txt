@@ -1,0 +1,18 @@
+Criando a Tabela
+
+-Comandos
+   -CREATE TABLE
+      >Tipos: INT, VARCHAR, DATETIME.
+
+      Ex.:
+      > CREATE TABLE pessoa (nome varchar(20)), nascimento date
+         >nome recebe texto de até 20 caractéres;
+         >nascimento recebe uma data.
+
+   -INSERT INTO
+      > INSERT INTO pessoas (nome, nascimento) VALUES ("Matheus", "1997-08-23");
+
+
+-Notes
+   Cada tabela precisa ter uma primary key definida, pois ela servirá como o identificador principal de um dado.
+   > Ex.: "auto increment em uma coluna 'id'"

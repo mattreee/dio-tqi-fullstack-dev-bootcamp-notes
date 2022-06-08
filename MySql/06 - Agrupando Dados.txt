@@ -1,0 +1,15 @@
+Agrupando Dados
+
+-GROUP BY
+   >Agrupa informações de acordo com o critério selecionado;
+
+   Ex.:
+   >SELECT COUNT(qtd), GENERO FROM pessoas GROUP BY genero;
+   // separa grupos baseados nos valores da coluna "genero" e retorna uma tabela dizendo quantos elementos cada valor recebe (ou quantos elementos possuem cada valor);
+
+-COUNT
+   >Conta a quantidade de elementos especificadas;
+
+   Ex.:
+   >SELECT COUNT(id) FROM pessoas
+   // retorna a quantidade de id encontrada na tabela pessoas;
