@@ -1,0 +1,12 @@
+Cláusula JOIN
+
+   >Realizar consultas com várias tabelas.
+   >INNER JOIN e OUTER JOIN
+      >INNER JOIN retorna valores que combinam entre as tabelas.
+      >OUTER JOIN fora os valores que correspondem, o OUTER JOIN também retorna valores dissimilares;
+   >(cláusulas)LEFT e RIGHT
+      >LEFT e RIGHT (quando usadas com outer) servem para identificar em que tabela deve ser ignorada a correspondência.
+
+
+Cláusula UNION
+   >Unir várias consultas diferentes.
