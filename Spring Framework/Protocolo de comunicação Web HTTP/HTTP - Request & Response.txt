@@ -1,0 +1,51 @@
+HTTP
+
+Mensagens HTTP - Request
+   >Texto em ASCII;
+   >Estrutura:
+      >Request Line;
+      >Header Line;
+
+      Ex.:
+         "Get:/somedir/page.html/1.1") <- Request Line
+         "Host: www.someschool.edu" ]
+         "Connection: close"        ]  <- Header Line
+         "User: agent: Mozilla/5.0" ]
+         "Accept-language: fr"      ]
+
+      > A Request Line possui o Método HTTP, a URL, e a versão do HTTP;
+      > Host é página URL;
+      > Connection é o tipo de conexão;
+      > User-agent: o agente que está fazendo a requisição. (ex.: brower, postman)
+      > Accept-language: define a preferência do cliente com relação a linguagem;
+
+   > Métodos Seguros:
+      > GET
+      > POST
+      > OPTION
+
+
+Mensagens HTTP - Response
+   Estrutura:
+      >Status Line;
+      >Header Line;
+      >Entity Body;
+
+      Ex.:
+         "HTTP/1.1 200 OK"                              ) -> Status Line
+         "Connection: close"                             ]
+         "Date: Tue, 09 Aug 2011 15:44:04 GMT"           ]
+         Server: Apache/2.2.3 (CentOS)                   ]-> Header line
+         Last-Modified: Tue, 09 Aug 2011 15:11:03 GMT    ]
+         Content-Length: 6821                            ]
+         Content-Type: text/html                         ]
+
+         (data, data, ...)                               )-> Entity Body
+
+
+   >Classificação dos Status Code:
+      > Information response (100 - 199);
+      > Successful response (200 - 299);
+      > Redirection response (300 - 399);
+      > Client Error response (400 - 499);
+      > Server Error response (500 - 599);

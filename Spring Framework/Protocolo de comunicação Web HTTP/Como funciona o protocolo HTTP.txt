@@ -1,0 +1,22 @@
+Protocolo HTTP
+   > HyperText Transfer Protocol (HTTP);
+   > Definido pelos RFCs 1945 e 2116;
+   > Protocolo de comunicação;
+   > Faz intermédio da comunicação entre cliente e servidor; determinando como eles vão se comunicar;
+   >
+      -Browser -> Impremento o cliente HTTP;
+      -Servidor -> hospeda os objetos web/recursos que o cliente estará solicitando;
+
+   >
+      -Cliente -> Envia mensagens de Request HTTP;
+      -Servidor -> Response com uma mensagem do tipo "response HTTP", utilizando o protocolo TCP/IP da camada de transporte;
+
+   (TCP/IP [Transmission Control Protocol] = protocolo da camada de transporte que dá controle de fluxo sobre os pacotes que estão sendo enviados entre o servidor e o cliente // dá melhor suporte para pacotes perdidos, reenviando-os)
+
+   >Arquiterura Client/Server
+      >Cliente só precisa se preocupar com o que vai ser pedido pro server;
+      >Server só precisa se preocupar com o que vai ser enviado de acordo com o pedido; Pois o Server é Stateless, e não manté m o estado do cliente;
+
+   > Formatos de estruturação de dados mais usados:
+      >XML
+      >JSON
