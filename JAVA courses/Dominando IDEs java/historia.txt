@@ -1,0 +1,46 @@
+História
+
+   > Linguagem de programação orientada a objetos;
+   > Desenvolvida na década de 90, na empresa Sun Microsystems e posteiormente adquirida pela Oracle em 2008;
+   > Desde o lançamento em 1995, a plataforma foi adotada mais rapidamente que qualquer outra linguagem de programação;
+
+   Características:
+      > A linguagem Java é compilada para um bytecode que é interpretado por uma máquina virtual (JVM)
+
+
+   Plataforma X Linguagem
+      > A linguagem Java é a linguagem convencional da plataforma Java, mas não é sua única linguagem. (exemplo outras ling: Groovy, JRuby, etc);
+      > Uma vantagem da plataforma é de não estar presa a um único sistema operacional ou hardware, pois seus programas rodam através de uma máquina virtual que pode ser emulada;
+      > Plataforma é dividida entre edições:
+         >Java SE (Java Plaform, Standard Edition);
+            >É a base da plataforma, e traz com ela classes comuns entre as plataformas;
+         >Java EE (Java Plaform, Enterprise Edition);
+            > Cuida do desenvolvimento web;
+         >Java ME (Java Plaform, Micro Edition);
+            > cuida do desenvolvimento de dispositivos móveis, e dispositivos embarcados(um sistema que roda em um dispositivo e que tem uma função próprio. Ex.: calculadora, controle remoto etc);
+
+
+   Fases da Execução Java
+      > Escrever código-fonte (arquivo .java);
+      > Utilizar o JDK para compilar o código-fonte e gerar o aquivo bytecode(arquivo com extensão .class);
+      > Para executar o programa, a JVM lê o arquivo compilado (.class) e as bibliotecas padrões do java que estão no JRE;
+
+      > JDK - Java Development Kit = É útil para o desenvolvimento do código;
+      > JRE - Java Runtime Environment = Roda programas no no ambiente local;
+      > JVM - Java Virtual Machine = converte bytecode em código de máquina e executa;
+
+
+   JDK x JRE
+      > JDK - Java Development Kit - kit de desenvolvimento responsável por compilar código-fonte (.java) em bytecode(.class);
+      > JVM - Java Virtual Machine - Máquina Virtual do Java responsável por executar o bytecode(.class);
+      > JRE - Java Runtime Environment - Ambiente de Execução do Java que fornece as bibliotecas padrões do Java para o JDK compilar o seu código e para a JVM executar o programa;
+
+   Versões Java
+      > OpenJDK é um Java totalmente open source com uma GNU (General Public License);
+      > JDK Oracle requer uma licença comercial sob o Contrato de licença de Código Binário Oracle;
+
+   
+   IDE
+      > Integrated Development Environment;
+      > Software que combina ferramentas comuns de desenvolvimento em uma única interface gráfica do usuário (GUI), facilitando o desenvolvimento de aplicações;
+      > JDK faz parte do funcionamento das IDEs;
