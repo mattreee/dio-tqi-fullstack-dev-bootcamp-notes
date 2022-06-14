@@ -1,0 +1,6 @@
+Operadores
+
+pós-fixado: exemplo++ ou exemplo--
+prefixado: ++exemplo ou --exemplo
+aritmético: +, -, *, / e %
+atribuição: =, +=, -=, *=, /= e %=

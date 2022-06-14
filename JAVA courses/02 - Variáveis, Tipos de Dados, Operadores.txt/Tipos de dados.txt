@@ -1,0 +1,24 @@
+Tipos
+
+Tipificação:
+   > Estática(forte) vs Dinâmica(fraco);
+   > Primitivo vs Composto;
+
+   > Estática obriga que o tipo seja indicado no momento de criação;
+   > Dinâmica não obriga tipificação, pois durante a execução a própria linguagem irá detectar o tipo;
+   > Primitivos são os dados mais básicos que uma linguagem pode prover;
+
+Tipos numerais
+   > byte
+   > short
+   > int
+   > long
+   > float
+   > double
+
+Tipos textuais
+   > char
+   > String
+
+Tipo lógico
+   > boolean

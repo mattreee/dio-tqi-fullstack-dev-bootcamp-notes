@@ -1,0 +1,33 @@
+Criação
+
+Padrão de definição:
+<?visibilidade?> <?modificador?> tipo nome <?=valorInicial?>;
+
+   V: "public", "protected" e "private"
+
+   M: "static" e "final"
+      > em java, o "final" indica que uma variável é constante, ou seja, seu valor não vai mudar;
+
+   T: tipo de dado
+      > o tipo de dado é obrigatório;
+
+   N: nome que é fornecido a variável
+
+   VI: um valor inicial
+
+valores entre interrogações são opcionais
+
+
+convençoes e regras sobre variáveis:
+   > não devem começar com números;
+   > $ e _ devem ser evitados;
+   > são case-sensitive;
+   > sem espaços;
+   > não podem ser palavras reservadas;
+
+
+boas práticas:
+   > começar com letras minúsculas:
+   > nomes expressivos;
+   > camelCase;
+   > Quando a constante "final" maiúscula e separada por "_";
