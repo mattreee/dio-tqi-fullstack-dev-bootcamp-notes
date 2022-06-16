@@ -1,0 +1,9 @@
+Sobrecarga
+   > É a capacidade de definir métodos para diferentes contextos, mas preservando seu nome;
+
+   > alterar a assinatura do método:
+      > assinatura = nome + parâmetros;
+   
+   > println é um exemplo de sobrecarga;
+
+   > sobrecarga != sobrescrita;

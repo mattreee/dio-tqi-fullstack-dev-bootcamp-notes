@@ -1,0 +1,48 @@
+Conceituação de métodos
+   É uma porção de código que é disponibilizado por uma classe. Este é excutado quando é feita uma requisição a ele. São responsáveis por definir e realizar um determinado comportamento.
+
+Padrão de definição:
+   <?visibilidade?> <?tipo?> <?modificador?> retorno nome (<?parâmetros?>)
+   <?exceções?> corpo
+
+   onde:
+      V: "public", "protected" ou "private";
+      T: concreto ou abstrato;
+      M: "static" ou "final";
+      R: tipo de dado ou "void";
+      N: nome que é fornecido ao método;
+      P: parâmetros que pode receber;
+      E: Execuções que pode lançar;
+      C: código que possui corpo ou vazio;
+
+
+Particularidades
+   Assinatura
+      > é a forma de identificar unicamente o método.
+      > assinatura = nome + parâmetros;
+   Construtor e destrutor;
+      > auxiliam na criação e destruição de objetos. são tipos especiais de métodos;
+   Mensagem
+      > é o ato de solicitar ao método que o mesmo execute;
+      > pode ser direcionada a um objeto ou a uma classe;
+   Passagem de parâmetros
+      > Por valor (cópia);
+         Ex.:
+
+            int i = 10;
+            public void fazerAlgo(int i) {
+               i = i + 10;
+               System.out.println("valor de i dentro: " + i);
+            }
+            Sytem.out.println("valor de i fora: " + i);
+
+            o print dentro do bloco de código irá retornar 20, e o de fora irá retonar 10, pois o de dentro é apenas uma cópia da variável i declarada fora do bloco; 
+
+      > Por referência (endereço);
+
+Boas práticas
+   > Nomes descritivos e curtos;
+   > camelCase;
+   > Deve possuir entre 80 e 120 linhas;
+   > Evite lista de parâmetros longas;
+   > visibilidades adequadas;
