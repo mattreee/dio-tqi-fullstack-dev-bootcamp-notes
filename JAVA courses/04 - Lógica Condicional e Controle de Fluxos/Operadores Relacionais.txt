@@ -1,0 +1,4 @@
+Operadores Relacionais
+   > Símbolos especiais capazes de realizar comparações e retornar resultados;
+      > Similaridade: igualdade, diferença;
+      > Tamanho: maior, menor, etc.

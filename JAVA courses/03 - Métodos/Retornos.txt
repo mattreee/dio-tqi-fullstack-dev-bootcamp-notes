@@ -1,0 +1,11 @@
+Retorno
+   > É uma instrução de interrupção;
+
+   > O método executa seu retorno quando:
+      > Completa todas suas intruções internas;
+      > Chega a uma declaração explicita de retorno;
+      > Lança uma exceção;
+   O método finalizará sua execução quando acontecer quando completar umas das três condições acima
+
+   > O tipo de retorno do método é definido na sua criação;
+   > O tipo de dado do return deve ser compatível com o do método;

@@ -1,0 +1,13 @@
+Operadores Lógicos
+   > São símbolos especiais capazes de realizar comparações lógicas e retornar resultados;
+      > Conjunção: &&
+
+      > Disjunção: ||
+
+      > Disjunção exclusiva: ^
+         > operação que só é verdade quando ambos os operandos ou expressões são opostos;
+         ex.:
+            true ^ false = true;
+            true ^ true = false;
+            
+      > Negação: !

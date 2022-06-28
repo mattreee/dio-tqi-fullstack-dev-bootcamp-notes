@@ -1,0 +1,7 @@
+interface List
+   > java.util.List
+   > Elementos duplicados e garante ordem de inserção.
+
+   > ArrayList deve ser usado onde mais operações de pesquisa são necessárias, e LinkedList deve ser usado onde mais operações de inserção e exclusão são necessárias.
+      > Manipular ArrayList leva mais tempo que Linked.
+      > ArrayList usa uma array para armazenar os elementos; LinkedList usa uma "Lista Duplamente Ligada" para fazer o armazenamento.

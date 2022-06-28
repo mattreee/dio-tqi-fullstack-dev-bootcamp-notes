@@ -1,0 +1,8 @@
+Collection
+   > Collection é um objeto que agrupa múltiplos elementos (variáveis primitivas ou objetos) dentro de uma única unidade;
+   > Serve para armazenar e processar conjuntos de dados de forma eficiente;
+
+Composição
+   > Interfaces: É um contrato que quando assumido por uma classe deve ser implementado.
+   > implementações ou Classes: são as materializações, a codificação das interfaces.
+   > Algoritmos: E uma sequência lógica, finita e definida de intruções que devem ser seguidas para resolver um problema.
