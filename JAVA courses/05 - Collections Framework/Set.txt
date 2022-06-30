@@ -1,0 +1,24 @@
+Sets
+   > java.util.Set
+   > Não permite elementos duplicados;
+   > Não possui índice;
+      > Não possui nenhum método que precise de índices.
+
+   Outras características:
+   HashSet:
+      > HashSet usa HashMap para armazenar elementos;
+      > HasSet não mantém a ordem dos elementos;
+      > Tem melhor performance do que os outros dois;
+      > Permite no máximo um elemento null;
+
+   LinkedHashSet:
+      > LinkedHashSet usa LinkedhashMap;
+      > Mantém a ordem de inserção dos elementos;
+      > Performance fica entre HashSet e TreeSet;
+      > Permite no máximo um elemento null;
+
+   TreeSet:
+      > TreeSet usa TreeMap;
+      > Mantém a ordem natural dos elementos;
+      > Tem a pior performance entre os três;
+      > Não permite nenhum elemento null;
