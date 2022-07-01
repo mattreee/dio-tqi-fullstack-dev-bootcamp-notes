@@ -1,0 +1,15 @@
+Map
+   > java.util.Map;
+   > Map é um objeto que permite o armazenamento de outros objetos ou unidades primitivas;
+   > Elementos únicos (key) para cada valor (value);
+      > values podem se repetir, mas não keys;
+   
+   Hierarquia:
+      > Hashtable
+
+   > SortedMap
+      >NavigableMap
+         > TreeMap
+         
+      > Hashmap
+         > LinkedHashMap
