@@ -1,0 +1,26 @@
+Stream
+
+Classe anônima
+   > A classe anônima em Java é uma classe que não recebeu um nome e é tanto declarado e instanciado em uma única instrução.
+
+      Ex.:
+      1 > meusGatos.sort(new ComparatorIdade());
+      2 > meusGatos.sort(new Comparator<Gato>() { ...resto do código... });
+
+      > No primeiro uma classe Comparator é passada para o sort. No segundo um Comparator é declarado diretamente em seu lugar.
+
+Functional Interface
+   > Qualquer interface com um SAM (Single Abstract Method) é uma interface funcional e sua implementação pode ser tratada como expressões lambda.
+
+Lambda
+   > Uma função lambda é uma função sem declaração, isto é, não é necessário colocar um nome, um tipo de retorno e o modificador de acesso. A ideia é que o método seja declarado no mesmo lugar em que será usado.
+   > (argumento) -> (corpo)
+   > Ex.: meusGatos.sort(Comparator.comparing((Gato gato) -> gato.getNome()));
+
+Reference Method
+   > Method Reference é um novo recurso do Java 8 que permite fazer referência a um método ou construtor de uma classe e assim indicar que ele deve ser utilizado num ponto específico do código, deixando-o mais simples e legível.
+   > Para utilizá-lo, basta informar uma classe ou referência seguida do súmbolo "::" e o nome do método sem os parênteses no final.
+   > Ex.: meusGatos.sort(Comparator.comparing(Gato::getNome));
+
+Stream API
+   > A Streams API traz uma nova opção para a manipulação de coleções em java seguindo os príncipios da programação funcional.

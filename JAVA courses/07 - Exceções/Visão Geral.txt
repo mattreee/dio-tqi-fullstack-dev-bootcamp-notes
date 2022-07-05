@@ -1,0 +1,26 @@
+Tratamento de Exceções
+   > Exceção é um evento que interrompe o fluxo normal do processamento de uma classe.
+   > O uso correto de exceções torna o programa mais robusto e confiável.
+   > Com o tratamento de exceções, um programa pode continuar executando depois de lidar com um problema.
+   > Incorporar sua estratégia de tratamento de exceções no sistema desde o princípio do processo do projeto.
+   > Pode ser difícil incluir um tratamento de exceções eficiente depois que um sistema foi implementado.
+
+      > Error:
+         Usado pela JVM que serve para indicar se existe algum problema de recurso do programa, tornado a execução impossível de continuar.
+
+      > Unchecked (Runtime):
+         > Exceptions que PODEM ser evitados se forem tratados e analisados pelo desenvolvedor.
+         > Geralmente são erros de lógica.
+         > São chamadasd Unchecked porque o compilador não prevê que a exception irá acontecer.
+
+      > Checked Exception: Exceptions que DEVEM ser evitados e tratados pelo desenvolvedor para o programa funcionar.
+         > Tentar acessar um arquivo que não existe;
+
+   > try, catch, finally:
+      > Cada uma dessas palavras, juntas, definem blocos para o tratamento de exceções.
+
+   > throws:
+      > Declara que um método pode lançar uma ou várias exceções.
+
+   > throw:
+      > Lança explicitamente uma exception.
